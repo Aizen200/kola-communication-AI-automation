@@ -104,13 +104,13 @@ export default function InteractivePlatformIcons() {
   ];
 
   return (
-    <div className="bg-[#e5e5e5] rounded-3xl p-7 border border-black/8 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+    <div className="bg-[#e5e5e5] rounded-3xl p-5 sm:p-6 border border-black/8 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
       {/* Left text */}
       <div className="z-10 max-w-sm shrink-0">
         <div className="flex items-center gap-2 mb-1.5">
-          <span className="font-mono text-xl font-bold text-[#151619]">30+</span>
-          <span className="px-2 py-0.5 rounded text-[10px] font-mono uppercase bg-black/10 text-[#555] tracking-wider">
-            PLATFORMS
+          <span className="font-editorial text-2xl font-bold text-[#151619]">30+</span>
+          <span className="px-2.5 py-0.5 rounded-full text-[11px] font-medium uppercase bg-black/10 text-[#444] tracking-wide">
+            Platforms
           </span>
         </div>
         <p className="text-xs sm:text-[13px] text-[#4f4f4f] leading-relaxed">
@@ -144,7 +144,7 @@ export default function InteractivePlatformIcons() {
               </div>
 
               {/* Tooltip on hover */}
-              <div className="absolute -bottom-8 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap px-2.5 py-0.5 rounded-full bg-[#151619] text-white text-[10px] font-mono shadow-md z-30">
+              <div className="absolute -bottom-8 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap px-3 py-1 rounded-full bg-[#151619] text-white text-xs font-normal shadow-md z-30">
                 {platform.name}
               </div>
             </div>
